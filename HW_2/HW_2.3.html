@@ -14,7 +14,7 @@
             height: 400px;
             margin: 20px;
             font-size: 100px;
-            font-family: "Roboto Light";
+            font-family: "Roboto";
             align-content: center ;
             text-align: center;
             justify-content: center ;
@@ -36,13 +36,14 @@
         .box2 {
             background-color: darkslateblue;
             height: 800px;
-            justify-content: space-between;
-            align-content: center ;
+            width: 33%;
+            justify-content: space-around;
+            align-content: center;
+            text-align: center;
             flex-wrap: wrap;
-            margin-left: 20px;
-            margin-right: 20px;
-            font-family: "Roboto Light";
-            font-size: 50px;
+            margin-left: auto;
+            font-family: "Roboto";
+            font-size: 100px;
 
             }
 
@@ -54,12 +55,18 @@
             align-content: center;
             flex-wrap: wrap;
             margin: 20px;
-            font-family: "Roboto Light";
+            font-family: "Roboto";
             font-size: 100px;
 
 
         }
+        .white {
+            font-family: "Roboto";
+            font-size: 100px;
+            color: white;
 
+
+        }
 
 
     </style>
@@ -67,17 +74,17 @@
 
 <body>
 
-    <div class = "box1"> <span> Widgets </span></div>
+    <div class = "box1 white"> <span> Widgets </span></div>
 
 
     <div class="flex">
-         <div class="box2"> <span> Big Widgets </span></div>
-         <div class="box2"> <span> Bigger Widgets </span></div>
-         <div class="box2"> <span> Huge Widgets </span></div>
+         <div class="box2 white"> <span> Big Widgets </span></div>
+         <div class="box2 white"> <span> Bigger Widgets </span></div>
+         <div class="box2 white"> <span> Huge Widgets </span></div>
 
     </div>
 
-<div class = "box3"><span> Contacts </span></div>;
+    <div class = "box3 white"><span> Contact </span></div>;
 
 
 </body>

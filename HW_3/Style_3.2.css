@@ -1,0 +1,21 @@
+
+
+
+header{
+    height: 50vh;
+    background-color: black;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    justify-content: space-evenly;
+
+}
+footer{
+    height: 50vh;
+    background-color: hotpink;
+    color: black;
+    font-size: 60px;
+    text-align: center;
+
+}
+

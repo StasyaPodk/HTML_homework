@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+}
+<style> {
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Rubik+Scribble&display=swap');
+
+}
+</style>
+
+html{
+    scroll-behavior: smooth;
+}
+.box-section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+
+}
+#pink{
+    background-color: hotpink;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#blue{
+    background-color: cornflowerblue;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+#red{
+    background-color: red;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}

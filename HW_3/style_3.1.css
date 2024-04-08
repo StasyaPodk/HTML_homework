@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    transition: 3s;
 }
 <style> {
     @import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Rubik+Scribble&display=swap');
@@ -9,6 +10,8 @@
 
 html{
     scroll-behavior: smooth;
+    transition: 3s;
+
 }
 .box-section{
     height: 100vh;
@@ -16,6 +19,7 @@ html{
     justify-content: center;
     align-items: center;
     font-size: 40px;
+    transition: 3s;
 
 }
 #pink{
@@ -28,6 +32,7 @@ html{
     text-align: center;
     padding-left: 40px;
     padding-right: 40px;
+
 }
 
 #blue{
@@ -41,6 +46,7 @@ html{
     padding-left: 40px;
     padding-right: 40px;
 
+
 }
 #red{
     background-color: red;
@@ -52,4 +58,5 @@ html{
     text-align: center;
     padding-left: 40px;
     padding-right: 40px;
+
 }

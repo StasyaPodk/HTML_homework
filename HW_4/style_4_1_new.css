@@ -1,6 +1,6 @@
 body{
     margin:0;
-    }
+}
 
 .flex_1 {
     width: 100%;
@@ -10,8 +10,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-
-}
+    }
 
     .flex_1_1{
         width: 70vw;
@@ -94,7 +93,7 @@ body{
     align-items: center;
     flex-direction: column;
 
-}
+    }
 
     .text4{
         color: #000;
@@ -136,9 +135,7 @@ body{
         justify-content: space-around;
         align-items: center;
         flex-direction: row;
-
-
-}
+        }
         .flex_3_1{
             width: 30vw;
             height: 70vh;
@@ -148,9 +145,8 @@ body{
             justify-content: space-around;
             align-items: center;
             margin-bottom: 30px;
+            padding-top: 30px;
         }
-
-
 
         .flex_3_2{
             width: 30vw;
@@ -161,9 +157,8 @@ body{
             justify-content: space-around;
             align-items: center;
             margin-bottom: 30px;
+            padding-top: 30px;
         }
-
-
 
         .flex_3_3{
             width: 30vw;
@@ -174,6 +169,7 @@ body{
             justify-content: space-around;
             align-items: center;
             margin-bottom: 30px;
+            padding-top: 30px;
         }
 
         .text6{
@@ -204,4 +200,3 @@ body{
             margin-bottom: 110px;
 
         }
-}

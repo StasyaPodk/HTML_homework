@@ -16,14 +16,14 @@ body {
 }
 
 .flex0{
-    width: 90%;
-    height: 90vh;
     background-color: white;
     padding-top: 50px;
-    border: 5px solid darkgray;
     display:flex;
     align-items: start;
     justify-content: center;
+
+
+
 }
 
 
@@ -31,30 +31,62 @@ img{
     width: 60%;
     display:flex;
     align-items: center;
-    justify-content: center;
-    margin-left: 200px;
-    margin-top: 50px;
+    justify-content: space-between;
+    margin-top: 120px;
+    padding-top: 10px;
+    margin-bottom: 120px;
 }
 
+.img1{
+    width: 5%;
+}
 
-.flex_1_1{
-    height: 80vh;
-    width: 80%;
+.flex_1{
+    width: 100%;
+    height: 100vh;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
-    background-color: yellowgreen;
+
+}
+
+
+.flex_1_1{
+    height: 75vh;
+    width: 90%;
+    display: flex;
+    background-color: yellow;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+    border: 2px solid darkgrey;
+
 
 }
 
 
 input[type="text"]{
-    width: 200px;
-    height: 50px;
+    width: 650px;
+    height: 150px;
+    font-size: 30px;
     background-color: #FAF9F7;
-    text-align: center;
+    text-align: start;
     border: 2px solid darkgray;
+    border-radius: 3px;
+    color: grey;
+    text-overflow: ellipsis;
+
+}
+
+input[type="password"]{
+    width: 650px;
+    height: 150px;
+    font-size: 30px;
+    background-color: #FAF9F7;
+    text-align: start;
+    border: 2px solid darkgrey;
     border-radius: 3px;
     color: grey;
     text-overflow: ellipsis;
@@ -65,7 +97,69 @@ input[type="text"]::placeholder{
     color: grey;
 }
 
-input[type="text"]:focus{
-    outline: none;
-    border: 2px solid #916c6a;
+.button{
+    margin-top: 50px;
+    width: 650px;
+    height: 150px;
+    font-size: 30px;
+    font-weight: 600;
+    background-color: dodgerblue;
+    text-align: center;
+    border: 2px solid dodgerblue;
+    border-radius: 20px;
+    color: white;
+    text-overflow: ellipsis;
+}
+
+
+.text2{
+    color: grey;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.flex_1_2 {
+    height: 12vh;
+    width: 90%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+    border: 2px solid darkgrey;
+}
+.text3{
+    color: darkslateblue;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.text5{
+    color: darkslateblue;
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+
+.text4{
+    font-family: "Open Sans", sans-serif;
+    color: black;
+    font-size: 35px;
+    font-weight: 300;
+    text-align: center;
+
+}
+
+span{
+    color: dodgerblue;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
 }

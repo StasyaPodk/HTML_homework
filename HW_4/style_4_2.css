@@ -5,24 +5,15 @@ body {
     justify-content: center;
 }
 
-.flex{
-    width: 35%;
-    height: 100vh;
+
+.flex_1{
+    width: 25%;
+    height: 75vh;
     background-color: white;
-    display:flex;
+    display: flex;
+    justify-content: space-evenly;
     align-items: center;
-    justify-content: center;
-
-}
-
-.flex0{
-    background-color: white;
-    padding-top: 50px;
-    display:flex;
-    align-items: start;
-    justify-content: center;
-
-
+    flex-direction: column;
 
 }
 
@@ -32,64 +23,68 @@ img{
     display:flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 120px;
+    margin-top: 40px;
     padding-top: 10px;
-    margin-bottom: 120px;
+    margin-bottom: 50px;
 }
 
-.img1{
-    width: 5%;
-}
-
-.flex_1{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-direction: column;
-
-}
 
 
 .flex_1_1{
-    height: 75vh;
+    height: 60vh;
     width: 90%;
     display: flex;
-    background-color: yellow;
     justify-content: start;
     align-items: center;
     flex-direction: column;
-    padding-top: 20px;
     border: 2px solid darkgrey;
 
+
+
+}
+
+
+.flex_1_2 {
+    height: 10vh;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   padding-top: 10px;
+    border: 2px solid darkgrey;
 
 }
 
 
 input[type="text"]{
-    width: 650px;
+    width: 400px;
     height: 150px;
-    font-size: 30px;
+    font-size: 20px;
     background-color: #FAF9F7;
     text-align: start;
     border: 2px solid darkgray;
     border-radius: 3px;
     color: grey;
     text-overflow: ellipsis;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
 
 }
 
 input[type="password"]{
-    width: 650px;
+    width: 400px;
     height: 150px;
-    font-size: 30px;
+    font-size: 20px;
     background-color: #FAF9F7;
     text-align: start;
     border: 2px solid darkgrey;
     border-radius: 3px;
     color: grey;
     text-overflow: ellipsis;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 
@@ -98,10 +93,10 @@ input[type="text"]::placeholder{
 }
 
 .button{
-    margin-top: 50px;
-    width: 650px;
-    height: 150px;
-    font-size: 30px;
+    margin-top: 30px;
+    width: 400px;
+    height: 200px;
+    font-size: 25px;
     font-weight: 600;
     background-color: dodgerblue;
     text-align: center;
@@ -109,27 +104,19 @@ input[type="text"]::placeholder{
     border-radius: 20px;
     color: white;
     text-overflow: ellipsis;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 
 .text2{
     color: grey;
-    font-size: 40px;
+    font-size: 20px;
     font-weight: 600;
     text-align: center;
-    margin-top: 50px;
+
 }
 
-.flex_1_2 {
-    height: 12vh;
-    width: 90%;
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    flex-direction: column;
-    padding-top: 50px;
-    border: 2px solid darkgrey;
-}
 .text3{
     color: darkslateblue;
     font-size: 40px;
@@ -145,21 +132,56 @@ input[type="text"]::placeholder{
     text-align: center;
     margin-top: 50px;
 }
+.facebook{
+    width: 400px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+.facebook_2{
+    color: darkslateblue;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+
+
+}
+
+.a_facebook{
+    padding-top: 8px;
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #375185;
+}
 
 
 
 .text4{
     font-family: "Open Sans", sans-serif;
     color: black;
-    font-size: 35px;
-    font-weight: 300;
+    font-size: 20px;
+    font-weight: 200;
     text-align: center;
-
 }
 
 span{
+    text-decoration: none;
     color: dodgerblue;
-    font-size: 40px;
+    font-size: 20px;
     font-weight: 600;
     text-align: center;
 }
+
+.image1{
+    width: 32px;
+    height: 32px;
+}
+

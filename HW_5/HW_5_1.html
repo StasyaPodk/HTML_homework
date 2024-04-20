@@ -9,51 +9,44 @@
 
     <style>
 
-.one{
-    ul li:nth-child(even) {
+
+.one>ul>li:nth-child(even){
         color: #ff87c9;
-    }
-
 }
 
-.two{
-    ul li:nth-child(odd) {
+.two>ul>li:nth-child(odd){
        font-size: 22px;
-    }
-
 }
 
- .three{
-     ul li:nth-child(2n+4){
-         li::after{
-            content:"!";
-         }
 
-     }
- }
+.three>ul>li:nth-child(2n+4)::after{
+        content: "!";
+    }
+
+
+
 
 .four{
     ol li:nth-child(12) {
         color: #cb18ff;
     }
 
+
 }
 .five{
-
-
                  li::first-letter{
                      color: red;
                      font-size: 30px;
-
                  }
 }
+
 
     </style>
 
 </head>
 <body>
 <div class="one">
-    <ul class="one">
+    <ul>
         <li> List of 18th-century British children's literature titles</li>
         <li>  List of 19th-century British children's literature titles</li>
         <li>  List of American children's books</li>

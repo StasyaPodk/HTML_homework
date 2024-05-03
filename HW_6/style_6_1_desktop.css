@@ -52,19 +52,19 @@
 .article{
     width: 100vw;
     height: 40vh;
-    background-color: darkseagreen;
     margin-bottom: 20px;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .article1{
-    width: 50vw;
-    height: 50%;
+    width: 49vw;
+    height: 48%;
     background-color: green;
-    margin-right: 10px;
+    margin-right: 5px;
     margin-bottom: 10px;
     border-radius: 20px;
     overflow-wrap: normal;
@@ -72,5 +72,33 @@
     align-items:flex-start;
     justify-content: end;
 
+
+}
+
+.article_p{
+    color:white;
+    font-size: 1.5rem;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.footer{
+    width: 100vw;
+    height: 8vh;
+    margin-bottom: 10px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background-color: green;
+    border-radius: 10px;
+
+
+}
+
+.footer1{
+    color:white;
+    font-size: 1rem;
+    margin-right: 20px;
+    margin-top: 5px;
 
 }
